@@ -75,6 +75,7 @@ while cell.value != '':
         #worksheet.format(config.get('latitudeColumn') + str(r), red)
         #worksheet.format(config.get('longitudeColumn') + str(r), red)
         print('{:<4}: Could not find coordinates!'.format(_to_A1(r, c)))
+        worksheet.update(config.get('latitudeColumn') + str(r), 'Kunde inte hitta adressen')
     else:
         #worksheet.format(config.get('latitudeColumn') + str(r), green)
         #worksheet.format(config.get('longitudeColumn') + str(r), green)
