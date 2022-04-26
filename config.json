@@ -1,0 +1,6 @@
+{
+    "sheetName": "Test koord-form",
+    "addressStartCell": "B2",
+    "latitudeColumn": "C",
+    "longitudeColumn": "D"
+}
