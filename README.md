@@ -13,7 +13,8 @@ För att använda skriptet behöver du:
 1. En API-nyckel till OpenCage
 Det är gratis att skaffa och görs på deras hemsida. Skapa sedan en fil som heter 'opencage-api-key' och klistra in nyckeln i den.
 
-2. Skaffa credentials för att använda Google Sheets API [här](https://developers.google.com/sheets/api/guides/authorizing)!
+2. Skaffa credentials för att använda Google Sheets API [här](https://developers.google.com/sheets/api/guides/authorizing)! 
+Ladda sedan ned ned en .json med credentials, döp den till drive-credentials.json och lägg den i samma mapp som skriptet.
 
 3. Dela spreadsheeten med mailadressen som tillhör dina credentials och ge kontot tillstånd att ändra, annars kan skriptet inte fylla i koordinaterna!
 
