@@ -13,18 +13,16 @@ För att använda skriptet behöver du:
 1. En API-nyckel till OpenCage
 Det är gratis att skaffa och görs på deras hemsida. Skapa sedan en fil som heter 'opencage-api-key' och klistra in nyckeln i den.
 
-2. Skaffa credentials för att använda Google Sheets API
-Gör detta [här](https://developers.google.com/sheets/api/guides/authorizing)!
+2. Skaffa credentials för att använda Google Sheets API [här](https://developers.google.com/sheets/api/guides/authorizing)!
 
-3. Dela spreadsheeten med mailadressen som tillhör dina credentials
-
-Ge kontot tillstånd att ändra, annars kan skriptet inte fylla i koordinaterna!
+3. Dela spreadsheeten med mailadressen som tillhör dina credentials och ge kontot tillstånd att ändra, annars kan skriptet inte fylla i koordinaterna!
 
 4. Fyll i config.json-filen
-..- sheetName är namnet på filen på Google Drive - t.ex. "Anmälan 2020 (Svar)"
-..- adressStartCell är den cellen där addresserna till deltagarna börjar - t.ex. "B2"
-..- latitudeCol är den kolumn där du vill att latituden skrivs
-..- latitudeCol är den kolumn där du vill att longituden skrivs
+* sheetName är namnet på filen på Google Drive - t.ex. "Anmälan 2020 (Svar)"
+* adressStartCell är den cellen där addresserna till deltagarna börjar - t.ex. "B2"
+* latitudeCol är den kolumn där du vill att latituden skrivs
+* latitudeCol är den kolumn där du vill att longituden skrivs
+
 Både latitud och longitud skrivs på samma rad som adressen.
 
 ## Kör skriptet
